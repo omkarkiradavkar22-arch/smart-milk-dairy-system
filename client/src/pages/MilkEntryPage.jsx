@@ -142,13 +142,16 @@ function MilkEntryPage() {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10
+         bg-[url('../public/img6.jpg')]
+        bg-cover bg-center h-screen">
 
           <h1
             className="
               text-4xl
               font-bold
               mb-10
+              text-white
             "
           >
             Milk Entries
@@ -159,10 +162,10 @@ function MilkEntryPage() {
 
           <div
             className="
-              bg-white
+              bg-white/60
               p-5
               rounded-xl
-              shadow
+              shadow-2xl
               mb-10
             "
           >
@@ -290,10 +293,10 @@ function MilkEntryPage() {
 
           <div
             className="
-              bg-white
+              bg-white/60
               p-5
               rounded-xl
-              shadow
+              shadow-2xl
               overflow-x-auto
             "
           >

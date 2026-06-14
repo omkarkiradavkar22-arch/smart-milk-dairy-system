@@ -60,13 +60,17 @@ function TransactionsPage() {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10
+         bg-[url('../public/img7.webp')]
+        bg-cover bg-center h-screen
+        ">
 
           <h1
             className="
               text-4xl
               font-bold
               mb-10
+              text-white
             "
           >
             Transactions
@@ -75,10 +79,10 @@ function TransactionsPage() {
 
           <div
             className="
-              bg-white
+              bg-white/75
               p-5
               rounded-xl
-              shadow
+              shadow-2xl
             "
           >
 

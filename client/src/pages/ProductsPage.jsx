@@ -204,7 +204,10 @@ function ProductsPage() {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10
+         bg-[url('../public/img3.jpg')]
+        bg-cover bg-center h-screen
+        ">
 
           <h1
             className="
@@ -221,7 +224,7 @@ function ProductsPage() {
 
           <div
             className="
-              bg-white
+              bg-white/40
               p-5
               rounded-xl
               shadow
@@ -332,7 +335,7 @@ function ProductsPage() {
 
           <div
             className="
-              bg-white
+              bg-white/50
               p-5
               rounded-xl
               shadow

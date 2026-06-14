@@ -111,7 +111,10 @@ function BillsPage() {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10
+         bg-[url('../public/img5.png')]
+        bg-cover bg-center h-screen
+        ">
 
           <h1
             className="

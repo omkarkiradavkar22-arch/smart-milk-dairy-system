@@ -90,17 +90,19 @@ function DashboardPage() {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10
+        bg-[url('../public/img1.jpg')]
+        bg-cover bg-center h-screen">
 
       <h1
         className="
           text-4xl
           font-bold
           mb-10
-          text-black
+          text-white
         "
       >
-        Welcome Admin 🚀
+        Welcome Admin 
       </h1>
 
       <div
@@ -116,21 +118,21 @@ function DashboardPage() {
         {/* Customers */}
         <div
           className="
-            bg-white-100
+          bg-black/20
             p-5
             rounded-2xl
-            shadow
+            shadow-2xl
             hover:shadow-2xl
             transition
             duration-300
             hover:-translate-y-1
           "
         >
-          <h2 className="text-xl font-bold text-black">
+          <h2 className="text-xl font-bold text-white">
             Customers
           </h2>
 
-          <p className="text-3xl mt-3 text-black">
+          <p className="text-3xl mt-3 text-white">
             {stats.totalCustomers}
           </p>
         </div>
@@ -138,21 +140,21 @@ function DashboardPage() {
         {/* Products */}
         <div
           className="
-            bg-white-100
+          bg-black/20
             p-5
             rounded-2xl
-            shadow
+            shadow-2xl
             hover:shadow-2xl
             transition
             duration-300
             hover:-translate-y-1
           "
         >
-          <h2 className="text-xl font-bold text-black">
+          <h2 className="text-xl font-bold text-white">
             Products
           </h2>
 
-          <p className="text-3xl mt-3 text-black">
+          <p className="text-3xl mt-3 text-white">
             {stats.totalProducts}
           </p>
         </div>
@@ -160,21 +162,21 @@ function DashboardPage() {
         {/* Revenue */}
         <div
           className="
-            bg-white-100
+          bg-black/20
             p-5
             rounded-2xl
-            shadow
+            shadow-2xl
             hover:shadow-2xl
             transition
             duration-300
             hover:-translate-y-1
           "
         >
-          <h2 className="text-xl font-bold text-black">
+          <h2 className="text-xl font-bold text-white">
             Revenue
           </h2>
 
-          <p className="text-3xl mt-3 text-black">
+          <p className="text-3xl mt-3 text-white">
             ₹{stats.totalRevenue}
           </p>
         </div>
@@ -182,21 +184,21 @@ function DashboardPage() {
         {/* Pending Bills */}
         <div
           className="
-            bg-white-100
+          bg-black/20
             p-5
             rounded-2xl
-            shadow
+            shadow-2xl
             hover:shadow-2xl
             transition
             duration-300
             hover:-translate-y-1
           "
         >
-          <h2 className="text-xl font-bold text-black">
+          <h2 className="text-xl font-bold text-white">
             Pending Bills
           </h2>
 
-          <p className="text-3xl mt-3 text-black">
+          <p className="text-3xl mt-3 text-white">
             {stats.pendingBills}
           </p>
         </div>
@@ -206,7 +208,7 @@ function DashboardPage() {
       {/* Analytics */}
       <div
         className="
-          bg-white-100
+          bg-white/75
           p-5
           rounded-2xl
           shadow

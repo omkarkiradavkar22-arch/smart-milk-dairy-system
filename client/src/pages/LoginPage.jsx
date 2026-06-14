@@ -54,18 +54,20 @@ function LoginPage() {
         items-center
         justify-center
         bg-gray-100
+        bg-[url('../public/img2.jpg')]
+        bg-cover bg-center h-screen
       "
     >
 
       <div
         className="
-          bg-white
+          bg-white/60
           p-10
           rounded-xl
           shadow-lg
           w-full
-max-w-[350px]
-mx-5
+          max-w-[350px]
+          mx-5
         "
       >
 

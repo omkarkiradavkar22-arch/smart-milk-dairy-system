@@ -208,7 +208,10 @@ const updateCustomer = async () => {
 
         <Navbar />
 
-        <div className="p-10">
+        <div className="p-10 
+         bg-[url('../public/img4.jpg')]
+        bg-cover bg-center h-screen
+        ">
 
           <h1
             className="
@@ -222,18 +225,18 @@ const updateCustomer = async () => {
 
           <div
             className="
-              bg-white
+              bg-white/50
               p-5
               rounded-xl
-              shadow
+              shadow-2xl
             "
           >
                 <div
   className="
-    bg-white
+    bg-white/60
     p-5
     rounded-xl
-    shadow
+    shadow-2xl
     mb-10
   "
 >
