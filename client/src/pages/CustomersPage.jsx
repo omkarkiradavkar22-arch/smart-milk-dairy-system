@@ -229,8 +229,7 @@ const updateCustomer = async () => {
               p-5
               rounded-xl
               shadow-2xl
-            "
-          >
+            ">
                 <div
   className="
     bg-white/60
