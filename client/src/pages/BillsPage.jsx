@@ -46,7 +46,7 @@ function BillsPage() {
 
   }, []);
 
-
+  
   const downloadBill = (bill) => {
 
   const doc = new jsPDF();
