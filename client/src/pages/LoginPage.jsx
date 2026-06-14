@@ -77,8 +77,7 @@ function LoginPage() {
             font-bold
             mb-6
             text-center
-          "
-        >
+          ">
           Login
         </h1>
 
